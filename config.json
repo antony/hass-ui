@@ -1,0 +1,14 @@
+{
+  "name": "HTTP Server",
+  "version": "1",
+  "slug": "http_server",
+  "description": "Tiny Http Server",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "before",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": {
+    "80/tcp": 80
+  }
+}
