@@ -1,0 +1,7 @@
+---
+  channel: stable
+  addons:
+    hass-ui:
+      repository: hass-ui/hass-ui
+      target: hass-ui
+      image: hass-ui
